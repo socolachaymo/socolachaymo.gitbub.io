@@ -1,1 +1,1 @@
-# socolachaymo.gitbub.io
+# socolachaymo.github.io
