@@ -9,26 +9,25 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
-  {%- endif -%}
-
+  <p>Hi everyone, my name is Thuy Nguyen. I am working full time as a Dietary Aide in a long term care home 
+  and learning python at the same time. I graduated a program of Food and Nutrition Management from a college in 2019.
+  After graduation and working for a while, I realized that I did not like to work in this field and wanted to try something new.
+  One of my friends suggested me to learn about programming. I first started to study about JavaScript for a month. Since the pandemic
+  came, I got to know about Python and I loved it. I took some courses on <a href="https://www.coursera.org/">Coursera.org</a> and got 
+  a certificate of <a href="https://coursera.org/share/4b3dfb6b82dbebbf6cee015fc1f7fb91">Python for Everybody Specialization</a> on June 5, 2020
+  in one month and a half. The Specialization is offered by the university of Michigan and includes courses:
+  <ul>
+    <li><a hrf="https://www.coursera.org/learn/python?specialization=python">Programming for Everybody</a></li>
+    <li><a href="https://www.coursera.org/learn/python-data?specialization=python">Python Data Structures</a></li>
+    <li><a href="https://www.coursera.org/learn/python-network-data?specialization=python">Using Python to Access Web Data</a></li>
+    <li><a href="https://www.coursera.org/learn/python-databases?specialization=python">Using Databases with Python</a></li>
+    <li><a href="https://www.coursera.org/learn/python-data-visualization">Capstone: Retrieving, Processing, and Visualizing Data with Python</a></li>
+  </ul>
+  I got another certificate of <a href="https://coursera.org/share/998fd2c6da4f10accfc7c576a779c18e">Algorithmic Toolbox course</a> by the university of
+  California San Diego on August 20, 2020.
+  Aside from work and online study, I have been working on some interesting <a href="/projects">projects</a> to apply what I learned in order to het hands-one experience
+  on Python. My projects include making games with pygame and creating apps using pyqt5. Click on <a href="/projects">projects</a> to know more about what I did.
+  </p>
+  <p>After all, I'd love to learn more about python and programming, and look for opportunities to change my career.
+  </p>
 </div>
