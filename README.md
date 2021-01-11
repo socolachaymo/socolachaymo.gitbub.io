@@ -1,1 +1,1 @@
-## This is the repo for my blog site
+## I made my portfolio website with Jekyll and GitHub Pages
