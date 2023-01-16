@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: A Python Beginner
-email: thuy121997@yahoo.com
+title: My Blog
+email: thuyng12@my.yorku.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my website!
 baseurl: "/" # the subpath of your site, e.g. /blog
