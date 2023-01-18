@@ -3,13 +3,51 @@ layout: default
 title: 'Projects'
 ---
 <ol>
+<!--  Data Visualization -->
+<div class="col-md-6">
+    <div class="project-information">
+    <h2 class="project-information__title"><li>Data Visualization</li></h2>
+        <div class="projects-row">
+        <div id="Music Player" class="col-md-6">
+            <img class="projects-row__img" src="images/crime_rate_graph.jpg" alt="main page" width="600px" height="350px">
+            <img class="projects-row__img" src="images/crime_rate_map.jpg" alt="playboard" width="600px" height="350px">
+        </div>
+    <p></p>
+    <h4 class="project-information__section-text"><b>Technologies used: </b>Python  • Dash • Plotly • Pandas</h4>
+    <p class="project-information__description">Data Visualization about the Crime Rates in 140 neighbourhoods in Toronto from 2014 until June, 2022. The users can search for the graphs of top 5 neighbourhoods with the highest crime rates and top 5 with the lowest crime rates. Additionally, they can also visualize how the number of crimes distributed around Toronto on a map. I am planning to develop it further to make a search engine where people can find a good neighbourhood based on their needs.
+    </p>
+    <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/socolachaymo/Neighbourhood-Stats">Repository</a></button>
+        </div>
+    </div>
+</div>
+<br>
+
+<!--  Image Randomizer -->
+<div class="col-md-6">
+    <div class="project-information">
+    <h2 class="project-information__title"><li>Image Randomizer</li></h2>
+        <div class="projects-row">
+        <div id="Image Randomizer" class="col-md-6">
+            <img class="projects-row__img" src="images/randomizer1.jpg" alt="main page" width="600px" height="300px">
+            <img class="projects-row__img" src="images/randomizer2.jpg" alt="playboard" width="600px" height="300px">
+        </div>
+    <p></p>
+    <h4 class="project-information__section-text"><b>Technologies used: </b>HTML  • CSS • Javascript • jQuery • ExpressJS • Mocha/Chai</h4>
+    <p class="project-information__description">Image Randomizer is a game where the player tries to click on all highlighted images in their order. Two images will be shown at first, with one image highlighted. If the highlighted image is clicked, then 2 new images appear. The highlighted images should be clicked in the order that they appeared on the webpage. If a wrong image is clicked, then the game ends and you can see the result. There are 3 difficulty levels with different points earned per correct image. 
+    </p>
+    <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/socolachaymo/KITCats-Project">Repository</a></button>
+    </div>
+</div>
+</div>
+<br>
+
 <!--  Music Player -->
 <div class="col-md-6">
     <div class="project-information">
     <h2 class="project-information__title"><li>Music Player</li></h2>
         <div class="projects-row">
         <div id="Music Player" class="col-md-6">
-        <img class="projects-row__img" src="https://raw.githubusercontent.com/socolachaymo/Music_Player/main/images/screenshot.PNG" alt="Music Player">
+        <img class="projects-row__img" src="images/music_player.PNG" alt="Music Player">
         </div>
     <p></p>
     <h4 class="project-information__section-text"><b>Technologies used: </b>Pyqt5  • Python 3 </h4>
@@ -19,7 +57,7 @@ title: 'Projects'
     </div>
 </div>
 </div>
-<p></p>
+<br>
 
 <!--  2048 -->
 <div class="col-md-6">
@@ -27,7 +65,7 @@ title: 'Projects'
     <h2 class="project-information__title"><li>2048</li></h2>
         <div class="projects-row">
         <div id="Game 2048" class="col-md-6">
-        <img class="projects-row__img" src="https://raw.githubusercontent.com/socolachaymo/2048/master/images/screenshot.PNG" alt="2048">
+        <img class="projects-row__img" src="images/2048.PNG" alt="2048" width="600px" height="600px">
         </div>
     <p></p>
     <h4 class="project-information__section-text"><b>Technologies used: </b>Pygame  • Python 3 </h4>
@@ -38,7 +76,7 @@ title: 'Projects'
     </div>
 </div>
 </div>
-<p></p>
+<br>
 
 <!--  Calculator -->
 <div class="col-md-6">
@@ -46,7 +84,7 @@ title: 'Projects'
     <h2 class="project-information__title"><li>Calculator</li></h2>
         <div class="projects-row">
         <div id="Calculator" class="col-md-6">
-        <img class="projects-row__img" src="https://raw.githubusercontent.com/socolachaymo/Calculator/main/images/screenshot.PNG" alt="Calculator">
+        <img class="projects-row__img" src="images/calculator.PNG" alt="Calculator">
         </div>
     <p></p>
     <h4 class="project-information__section-text"><b>Technologies used: </b>Pyqt5  • Python 3 </h4>
@@ -56,7 +94,7 @@ title: 'Projects'
     </div>
 </div>
 </div>
-<p></p>
+<br>
 
 <!-- Matching-Animals  -->
 <div class="col-md-6">
@@ -64,7 +102,7 @@ title: 'Projects'
     <h2 class="project-information__title"><li>Matching-Animals</li></h2>
         <div class="projects-row">
         <div id="Matching-Animals" class="col-md-6">
-        <img class="projects-row__img" src="https://raw.githubusercontent.com/socolachaymo/Matching-Animals/main/images/screenshot.PNG" alt="Matching-Animals">
+        <img class="projects-row__img" src="images/animals.PNG" alt="Matching-Animals" width="600px" height="600px">
         </div>
     <p></p>
     <h4 class="project-information__section-text"><b>Technologies used: </b>Pygame  • Python 3 </h4>
@@ -75,7 +113,7 @@ title: 'Projects'
     </div>
 </div>
 </div>
-<p></p>
+<br>
 
 <!--  Timer -->
 <div class="col-md-6">
@@ -83,17 +121,17 @@ title: 'Projects'
     <h2 class="project-information__title"><li>Timer</li></h2>
         <div class="projects-row">
         <div id="Timer" class="col-md-6">
-        <img class="projects-row__img" src="https://raw.githubusercontent.com/socolachaymo/Timer/main/images/screenshot.PNG" alt="Timer">
+        <img class="projects-row__img" src="images/timer.PNG" alt="Timer">
         </div>
     <p></p>
     <h4 class="project-information__section-text"><b>Technologies used: </b>Pygame  • Python 3 </h4>
-    <p class="project-information__description">I wrote it on Pygame. You can press numbers to set timer and press Start to countdown the time. When the timer runs to 0, there will be a song played to let you know it's done. You can press Stop to stop the timer while it is counting down or press Reset to reset a new timer.
+    <p class="project-information__description">You can press numbers to set timer and press Start to countdown the time. When the timer runs to 0, there will be a song played to let you know it's done. You can press Stop to stop the timer while it is counting down or press Reset to reset a new timer.
     </p>
     <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/socolachaymo/Timer">Repository</a></button>
     </div>
 </div>
 </div>
-<p></p>
+<br>
 
 <!-- Get_Monster-Killed -->
 <div class="col-md-6">
@@ -101,7 +139,7 @@ title: 'Projects'
     <h2 class="project-information__title"><li>Get_Monster-Killed</li></h2>
         <div class="projects-row">
         <div id="Get_Monster-Killed" class="col-md-6">
-        <img class="projects-row__img" src="https://raw.githubusercontent.com/socolachaymo/Get-Monster-Killed/main/Images/screenshot.PNG" alt="Get_Monster-Killed">
+        <img class="projects-row__img" src="images/monsters.PNG" alt="Get_Monster-Killed">
         </div>
     <p></p>
     <h4 class="project-information__section-text"><b>Technologies used: </b>Pygame  • Python 3 </h4>
@@ -111,7 +149,7 @@ title: 'Projects'
     </div>
 </div>
 </div>
-<p></p>
+<br>
 
 <!-- Video-Downloader -->
 <div class="col-md-6">
@@ -119,7 +157,7 @@ title: 'Projects'
     <h2 class="project-information__title"><li>Video-Downloader</li></h2>
         <div class="projects-row">
         <div id="Video-Downloader" class="col-md-6">
-        <img class="projects-row__img" src="https://raw.githubusercontent.com/socolachaymo/Video-Downloader/main/screenshot.PNG" alt="Video-Downloader">
+        <img class="projects-row__img" src="images/video_downloader.PNG" alt="Video-Downloader">
         </div>
     <p></p>
     <h4 class="project-information__section-text"><b>Technologies used: </b>Tkinter  • Python 3 </h4>
@@ -129,7 +167,7 @@ title: 'Projects'
     </div>
 </div>
 </div>
-<p></p>
+<br>
 
 <!-- Tic-Tac-Toe -->
 <div class="col-md-6">
@@ -137,7 +175,7 @@ title: 'Projects'
     <h2 class="project-information__title"><li>Tic-Tac-Toe</li></h2>
         <div class="projects-row">
         <div id="Video-Downloader" class="col-md-6">
-        <img class="projects-row__img" src="https://raw.githubusercontent.com/socolachaymo/Tic-Tac-Toe/main/Images/screenshot.PNG" alt="Tic-Tac-Toe">
+        <img class="projects-row__img" src="images/tic_tac_toe.PNG" alt="Tic-Tac-Toe">
         </div>
     <p></p>
     <h4 class="project-information__section-text"><b>Technologies used: </b>Pygame  • Python 3 </h4>
