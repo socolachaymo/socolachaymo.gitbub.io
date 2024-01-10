@@ -8,7 +8,7 @@ title: 'Projects'
     <div class="project-information">
     <h2 class="project-information__title"><li>Data Visualization</li></h2>
         <div class="projects-row">
-        <div id="Music Player" class="col-md-6">
+        <div id="Data Visualization" class="col-md-6">
             <img class="projects-row__img" src="images/crime_rate_graph.jpg" alt="main page" width="600px" height="350px">
             <img class="projects-row__img" src="images/crime_rate_map.jpg" alt="playboard" width="600px" height="350px">
         </div>
