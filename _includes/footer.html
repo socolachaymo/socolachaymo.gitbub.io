@@ -1,9 +1,9 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2> <a href="/" class="footer-heading" >{{ site.title | escape }}</a> </h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -25,9 +25,9 @@
         {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-col-3">
+      <!-- <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
-      </div>
+      </div> -->
     </div>
 
   </div>

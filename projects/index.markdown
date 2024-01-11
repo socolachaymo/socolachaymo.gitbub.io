@@ -14,7 +14,7 @@ title: 'Projects'
         </div>
     <p></p>
     <h4 class="project-information__section-text"><b>Technologies used: </b>Python  • Dash • Plotly • Pandas</h4>
-    <p class="project-information__description">Data Visualization about the Crime Rates in 140 neighbourhoods in Toronto from 2014 until June, 2022. The users can search for the graphs of top 5 neighbourhoods with the highest crime rates and top 5 with the lowest crime rates. Additionally, they can also visualize how the number of crimes distributed around Toronto on a map. I am planning to develop it further to make a search engine where people can find a good neighbourhood based on their needs.
+    <p class="project-information__description">Data Visualization about the Crime Rates in 140 neighbourhoods in Toronto from 2014 until June, 2022. The users can search for the graphs of top 5 neighbourhoods with the highest crime rates and top 5 with the lowest crime rates. Additionally, they can also visualize how the number of crimes distributed around Toronto on a map.
     </p>
     <button type="button" class="project-information__btn"><a target="_blank" href="https://github.com/socolachaymo/Neighbourhood-Stats">Repository</a></button>
         </div>
